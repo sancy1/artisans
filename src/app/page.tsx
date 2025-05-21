@@ -1,10 +1,11 @@
+// ./src/app/page.tsx
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className="space-y-8">
       <h2 className="text-3xl font-serif text-amber-900">Welcome Artisans!</h2>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Test Product Card */}
         <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -62,14 +63,14 @@ export default function Home() {
         {/* Typography */}
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h3 className="text-xl font-semibold text-amber-900 mb-4">Typography</h3>
-          
+
           {/* Font Pairing */}
           <div className="mb-6 p-4 bg-amber-50 rounded-md">
             <h4 className="font-semibold text-amber-800 mb-2">Font Pairing</h4>
             <p className="font-sans">Primary: Inter (Sans-serif) - Clean and readable for UI</p>
             <p className="font-serif mt-2">Secondary: Cardo (Serif) - Elegant for headings</p>
           </div>
-          
+
           {/* Type Scale */}
           <div className="space-y-3">
             <h4 className="font-semibold text-amber-800">Type Scale</h4>
@@ -97,7 +98,7 @@ export default function Home() {
             <div className="p-4 bg-amber-50 rounded-md">
               <h4 className="font-serif text-lg text-amber-800 mb-2">Cardo (Serif)</h4>
               <p className="font-serif">
-                "Perfect for artisan branding - elegant yet approachable with excellent readability."
+                &apos;Perfect for artisan branding - elegant yet approachable with excellent readability.&apos;
               </p>
               <div className="mt-2 text-sm font-sans text-amber-700">
                 Weights: 400 (Regular), 700 (Bold)
@@ -106,7 +107,7 @@ export default function Home() {
             <div className="p-4 bg-amber-50 rounded-md">
               <h4 className="font-sans text-lg text-amber-800 mb-2">Inter (Sans-serif)</h4>
               <p className="font-sans">
-                "Highly legible for body text and UI elements with a modern neutral feel."
+                &apos;Highly legible for body text and UI elements with a modern neutral feel.&apos;
               </p>
               <div className="mt-2 text-sm font-sans text-amber-700">
                 Weights: 400 (Regular), 500 (Medium), 600 (SemiBold)
